@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Company Blog</title>
+</head>
+<body>
+    <header>
+        <h1>My Company Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#home" onclick="showPage('home')">Home</a></li>
+                <li><a href="#about" onclick="showPage('about')">About</a></li>
+                <li><a href="#blog" onclick="showPage('blog')">Blog</a></li>
+                <li><a href="#contact" onclick="showPage('contact')">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="page">
+            <h2>Welcome to My Company Blog</h2>
+            <p>Explore the latest insights and updates from our company.</p>
+        </section>
+        <section id="about" class="page" style="display:none;">
+            <h2>About Us</h2>
+            <p>We specialize in providing the best solutions for your needs.</p>
+        </section>
+        <section id="blog" class="page" style="display:none;">
+            <h2>Latest Blog Posts</h2>
+            <div class="post">
+                <h3>Post Title 1</h3>
+                <p>This is a summary of the blog post.</p>
+            </div>
+            <div class="post">
+                <h3>Post Title 2</h3>
+                <p>This is a summary of another blog post.</p>
+            </div>
+        </section>
+        <section id="contact" class="page" style="display:none;">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 My Company. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

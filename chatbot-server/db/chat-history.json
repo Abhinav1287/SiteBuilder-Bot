@@ -1,0 +1,106 @@
+[
+  {
+    "user": "Hi",
+    "bot": "What type of website are you looking to create? (e.g., personal blog, business site, portfolio, e-commerce, etc.)"
+  },
+  {
+    "user": "Business",
+    "bot": "What type of business do you have, and who is your target audience?"
+  },
+  {
+    "user": "Gada electronics, people all over india",
+    "bot": "What specific electronics products does Gada Electronics offer, and what services do you provide?"
+  },
+  {
+    "user": "Mobile,earphones,headphones,tv,washing machine,fridge",
+    "bot": "What is your main goal for the website? (e.g., increase sales, showcase products, provide information, etc.)"
+  },
+  {
+    "user": "All",
+    "bot": "What specific goals do you have for your website? (e.g., increase sales, showcase products, provide customer support, etc.)"
+  },
+  {
+    "user": "All",
+    "bot": "What specific features do you want on your website? (e.g., product listings, shopping cart, customer reviews, blog, contact forms, etc.)"
+  },
+  {
+    "user": "All",
+    "bot": "What specific color scheme or theme do you envision for the Gada Electronics website?"
+  },
+  {
+    "user": "Light theme appealing to users",
+    "bot": "What specific sections do you want on your website? (e.g., home page, about us, product categories, testimonials, blog, contact us, etc.)"
+  },
+  {
+    "user": "All",
+    "bot": "What type of payment options do you want to offer on your website (e.g., credit card, PayPal, COD, etc.)?"
+  },
+  {
+    "user": "All",
+    "bot": "What payment gateways do you prefer to use for online transactions? (e.g., Razorpay, Paytm, Stripe, etc.)"
+  },
+  {
+    "user": "Paytm",
+    "bot": "What types of content do you want to include on your website? (e.g., product descriptions, blogs, company information, etc.)"
+  },
+  {
+    "user": "All",
+    "bot": "Do you want to include a blog on your website, and if so, what topics do you plan to cover?"
+  },
+  {
+    "user": "Rising electronics and latest trends in mobile phones",
+    "bot": "What contact information do you want to include on your website (e.g., phone number, email, address)?"
+  },
+  {
+    "user": "All",
+    "bot": "What contact methods do you want to provide, such as phone numbers, email addresses, or a contact form?"
+  },
+  {
+    "user": "All",
+    "bot": "What forms of customer support do you want to provide on your website? (e.g., live chat, FAQs, support tickets, etc.)"
+  },
+  {
+    "user": "All",
+    "bot": "What specific shipping options do you want to provide to your customers (e.g., standard shipping, express shipping, free shipping thresholds)?"
+  },
+  {
+    "user": "All",
+    "bot": "What specific shipping providers do you plan to use for your shipping options? (e.g., BlueDart, DTDC, India Post, etc.)"
+  },
+  {
+    "user": "Now generate website",
+    "bot": "Do you have a specific domain name in mind for your website?"
+  },
+  {
+    "user": "No",
+    "bot": "Do you have any preferences for the domain name or would you like suggestions for it?"
+  },
+  {
+    "user": "Suggest me",
+    "bot": "What do you think about these domain name suggestions: gadaelectronics.com, gadaelectronicsindia.com, or gadaeshop.com? Do any of these appeal to you?"
+  },
+  {
+    "user": "Yes first one",
+    "bot": "Do you have a logo or specific branding elements you'd like to use for Gada Electronics, or do you need help creating them?"
+  },
+  {
+    "user": "No just generate website now",
+    "bot": "Do you have any specific preferences for the layout of your website, such as grid or list views for product listings?"
+  },
+  {
+    "user": "/generate",
+    "bot": "Do you have any specific images or branding materials that you would like to use on your website, such as product photos or graphics?"
+  },
+  {
+    "user": "No",
+    "bot": "Would you like assistance with hosting options for your website, or do you already have a hosting plan in mind?"
+  },
+  {
+    "user": "Yes",
+    "bot": "What type of hosting plan are you looking for? (e.g., shared hosting, VPS, dedicated server, managed hosting, etc.)"
+  },
+  {
+    "user": "/generate",
+    "bot": "What type of hosting plan are you looking for? (e.g., shared hosting, VPS, dedicated server, managed hosting, etc.)"
+  }
+]

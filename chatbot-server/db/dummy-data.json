@@ -1,0 +1,110 @@
+{
+  "name": "Isha Maheshwari",
+  "age": "21",
+  "gender": "Female",
+  "email": "ishamaheshwari2003@gmail.com",
+  "phone": "7597427185",
+  "address": "Bhilwara",
+  "linkedin": "linkedin.com/in/isha-maheshwari-0035812a3/",
+  "github": "github.com/Isha2706",
+  "experience": [
+    "I worked as a MERN Stack Developer Intern at Grras Solution Pvt. Ltd from June 2024 to July 2024. During this period, I developed full-stack applications using the MERN stack, creating responsive user interfaces with ReactJS, building RESTful APIs using Node.js and Express.js, and managing database operations with MongoDB. I also implemented DevOps practices such as version control with Git/GitHub, deployed applications using Vercel, and optimized performance through debugging and code refinements.",
+    "I served as a Frontend Developer Intern at TechNova Solutions from January 2024 to March 2024, where I focused on designing and developing interactive user interfaces using HTML, CSS, JavaScript, and React.js. I collaborated with the backend team to integrate APIs, ensured cross-browser compatibility, and improved application performance through code optimization and responsive design. My contributions led to a 25% increase in user engagement on the company's flagship product."
+  ],
+  "skills": [
+    "C",
+    "Python",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React JS",
+    "Node JS",
+    "Machine Learning",
+    "SQL",
+    "Bash"
+  ],
+  "languages": ["Hindi", "English"],
+  "tools": [
+    "Tailwind CSS",
+    "MongoDB",
+    "Jupyter",
+    "Deep Learning",
+    "Excel",
+    "Power BI",
+    "VS Code",
+    "Git"
+  ],
+  "certifications": [
+    {
+      "title": "NPTEL Online:",
+      "description": [
+        "Introduction to Programming in C",
+        "Data Base Management System",
+        "Theory of Computation",
+        "Python for Data Science",
+        "Data Analytics with Python"
+      ]
+    },
+    {
+      "title": "Coursera Online:",
+      "description": ["Google Data Analytics"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Future Sales Prediction Project",
+      "description": [
+        "Developed a machine learning model in Python to predict future sales trends using historical advertising data, analyzing the impact of TV,radio, and newspaper advertisements.",
+        "Provided actionable insights to optimize marketing strategies and improve inventory management by forecasting benefits from different advertising channels."
+      ]
+    },
+    {
+      "title": "Data Science Project: Correlation Analysis of Weaving Data",
+      "description": [
+        "Led a team of four to analyze weaving data for a textile company, performing exploratory data analysis (EDA) using Python to uncover key correlations and optimize the weaving process.",
+        "Utilized Pandas, NumPy, and Seaborn for statistical analysis and data visualization, resulting in improved production efficiency."
+      ]
+    },
+    {
+      "title": "Glam Up: E-Commerce Website",
+      "description": [
+        "Developed a full-stack e-commerce platform, Glam Up, using React.js, Node.js, MongoDB, Tailwind CSS, and Redux, featuring a user-friendly interface for showcasing makeup products across various categories.",
+        "Integrated MongoDB for dynamic product management, a payment gateway for seamless transactions, and Tailwind CSS with Redux for responsive styling and state management."
+      ]
+    }
+  ],
+  "college": "Sangam University",
+  "degree": "Bachelor of Technology",
+  "fieldOfStudy": "Artificial Intelligence & Data Science",
+  "schooling": "A's Steward Morris School",
+  "company": "Ready Bytes Software Lab",
+  "role": "Software Developer",
+  "post": "Intern",
+  "description": "I'm trainee as software developer, learning Full stack with help of freeCodeCamp.org",
+  "interests": ["AI", "Data", "Learning", "Website"],
+  "hobbies": ["Sleeping", "Sketching"],
+  "goals": "To secure a challenging position as a software developer where I can apply my skills in full stack development and machine learning, and grow professionally in a collaborative environment.",
+  "personality": "Proactive, detail-oriented, and a strong team player with a passion for problem-solving and continuous learning.",
+  "availability": "Immediate",
+  "preferredLocation": "Bangalore, Pune, or remote",
+  "expectedSalary": "6-8 LPA",
+  "noticePeriod": "0 days",
+  "achievements": [
+    "Won 1st prize in intra-college hackathon focused on AI-driven solutions.",
+    "Selected as class representative for four consecutive years.",
+    "Member of the Board of Study (BOS) representing student interests."
+  ],
+  "volunteering": [
+    "Coordinated a ramp walk event in first year college fest.",
+    "Organized a poster-making competition on Engineers' Day in second year."
+  ],
+  "hackathons": [
+    "Participated in Smart India Hackathon 2023 - Developed a sign language recognition system.",
+    "Contributed to a 24-hour FinTech hackathon - built a loan eligibility prediction model using ML."
+  ],
+  "extracurriculars": [
+    "Active participant in cultural fests and tech events.",
+    "Completed a certified training on Full Stack & Mobile App Development from Grras Solutions.",
+    "Donated my hair to cancer patients as part of a cancer awareness campaign."
+  ]
+}

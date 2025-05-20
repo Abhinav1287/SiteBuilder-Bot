@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnerCalm - Meditation and Mindfulness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">InnerCalm</div>
+        <ul class="nav-links">
+            <li onclick="showPage('home')">Home</li>
+            <li onclick="showPage('about')">About Us</li>
+            <li onclick="showPage('services')">Services</li>
+            <li onclick="showPage('booking')">Booking</li>
+            <li onclick="showPage('resources')">Resources</li>
+            <li onclick="showPage('testimonials')">Testimonials</li>
+            <li onclick="showPage('contact')">Contact Us</li>
+            <li onclick="showPage('faqs')">FAQs</li>
+        </ul>
+    </nav>
+
+    <div id="content">
+        <div id="home" class="page active">
+            <div class="hero">
+                <div class="hero-images">
+                    <div class="hero-image fade"><img loading="eager" src="uploads/landscape1.webp" alt="Peaceful Landscape"></div>
+                    <div class="hero-image fade"><img loading="eager" src="uploads/landscape2.webp" alt="Meditation Scene"></div>
+                    <div class="hero-image fade"><img loading="eager" src="uploads/landscape3.webp" alt="Calm Nature"></div>
+                </div>
+                <div class="hero-overlay">
+                    <h1 id="goal">Find Your Inner Calm</h1>
+                    <h3>Reconnect. Breathe. Heal.</h3>
+                    <p>Join our community of mindfulness seekers and explore guided meditations, calming music, and expert insights.</p>
+                    <button onclick="showPage('booking')">Start Your Journey</button>
+                    <span>Trusted by over 10,000+ users</span>
+                    <a href="#" class="secondary-cta">Watch Introduction</a>
+                    <div class="scroll-indicator">&darr;</div>
+                </div>
+            </div>
+        </div>
+        <div id="about" class="page">
+            <h2>About Us</h2>
+            <p id="about-section">Our mission is to make inner peace accessible through guided meditation and mindful practices.</p>
+            <h3>Our Story</h3>
+            <p>Founded in 2023, InnerCalm began with a simple goal — to help people disconnect from chaos and reconnect with themselves.</p>
+            <h3>Our Philosophy</h3>
+            <p>We believe that mindfulness is a daily ritual.</p>
+        </div>
+        <div id="services" class="page">
+            <h2>Our Services</h2>
+            <ul>
+                <li><strong>Guided Meditation Sessions:</strong> Experience daily live sessions led by certified instructors.</li>
+                <li><strong>Breathwork Workshops:</strong> Learn powerful breathing techniques.</li>
+                <li><strong>One-on-One Coaching:</strong> Get personalized guidance tailored to your wellness goals.</li>
+                <li><strong>Mindfulness for Beginners:</strong> A 4-week self-paced program to build your foundation in meditation.</li>
+            </ul>
+        </div>
+        <div id="booking" class="page">
+            <h2>Booking</h2>
+            <p>Schedule your sessions and join our meditation classes.</p>
+            <form id="bookingForm">
+                <input type="text" placeholder="Your Name" required />
+                <input type="email" placeholder="Your Email" required />
+                <button type="submit">Book Now</button>
+            </form>
+        </div>
+        <div id="resources" class="page">
+            <h2>Resources</h2>
+            <p>Explore our library of guided videos and articles to deepen your meditation practice.</p>
+        </div>
+        <div id="testimonials" class="page">
+            <h2>User Testimonials</h2>
+            <p>Hear from our practitioners about their peaceful journeys with InnerCalm.</p>
+        </div>
+        <div id="contact" class="page">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Please fill out the form below.</p>
+            <form id="contactForm">
+                <input type="text" placeholder="Your Name" required />
+                <input type="email" placeholder="Your Email" required />
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <div id="faqs" class="page">
+            <h2>FAQs</h2>
+            <p>Check our frequently asked questions about meditation.</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="social-links">
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">YouTube</a>
+            <a href="#">Pinterest</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

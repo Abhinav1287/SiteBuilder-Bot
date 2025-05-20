@@ -1,0 +1,31 @@
+{
+  "websiteType": "Business",
+  "targetAudience": "People all over India",
+  "mainGoal": "All",
+  "colorScheme": "Light theme appealing to users",
+  "theme": "",
+  "pages": [],
+  "sections": [
+    "home page",
+    "about us",
+    "product categories",
+    "testimonials",
+    "blog",
+    "contact us"
+  ],
+  "features": [
+    "product listings",
+    "shopping cart",
+    "customer reviews"
+  ],
+  "content": {},
+  "designPreferences": {},
+  "images": [],
+  "fonts": "",
+  "contactInfo": {},
+  "socialLinks": {},
+  "customScripts": "",
+  "branding": {},
+  "updateRequests": [],
+  "additionalNotes": ""
+}
