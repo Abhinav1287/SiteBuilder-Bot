@@ -1,0 +1,30 @@
+[
+  {
+    "user": "Hii",
+    "bot": "What type of website are you looking to create (e.g., personal, business, portfolio, blog)?"
+  },
+  {
+    "user": "Blog",
+    "bot": "What topics will your blog focus on (e.g., lifestyle, technology, travel, food)?"
+  },
+  {
+    "user": "My company",
+    "bot": "What specific topics related to your company do you want to cover in your blog?"
+  },
+  {
+    "user": "Generated website",
+    "bot": "Your website has been generated successfully! You can find the files in your user directory."
+  },
+  {
+    "user": "Hi",
+    "bot": "What is the main goal of your blog (e.g., to share information, promote services, engage with customers)?"
+  },
+  {
+    "user": "Blog",
+    "bot": "What specific topics related to your company do you want to cover in your blog?"
+  },
+  {
+    "user": "Generated website",
+    "bot": "Your website has been generated successfully! You can find the files in your user directory."
+  }
+]
