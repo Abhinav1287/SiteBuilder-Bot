@@ -1,21 +1,19 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const buttons = document.querySelectorAll('.read-more');
-    buttons.forEach(button => {
-        button.addEventListener('click', function() {
-            const postContent = this.nextElementSibling;
-            if (postContent.style.display === 'none') {
-                postContent.style.display = 'block';
-                this.textContent = 'Read Less';
+document.querySelectorAll('.filter').forEach(button => {
+    button.addEventListener('click', function() {
+        const filter = this.getAttribute('data-filter');
+        document.querySelectorAll('.project-card').forEach(card => {
+            if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                card.style.display = 'block';
             } else {
-                postContent.style.display = 'none';
-                this.textContent = 'Read More';
+                card.style.display = 'none';
             }
         });
     });
-    const form = document.getElementById('contact-form');
-    form.addEventListener('submit', function(event) {
-        event.preventDefault();
-        alert('Thank you for your message!');
-        form.reset();
-    });
+});
+const form = document.getElementById('contact-form');
+form.addEventListener('submit', function(event) {
+    event.preventDefault();
+    const confirmationMessage = document.querySelector('.confirmation-message');
+    confirmationMessage.textContent = 'I usually reply within 48 hours.';
+    form.reset();
 });
